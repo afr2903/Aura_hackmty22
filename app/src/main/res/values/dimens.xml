@@ -2,5 +2,7 @@
 <resources>
     <dimen name="margin_top_text">30dp</dimen>
     <dimen name="padding_layout">20dp</dimen>
-    <dimen name=""></dimen>
+    <dimen name="textSize">17dp</dimen>
+    <dimen name="margin_t_text">15dp</dimen>
+
 </resources>
