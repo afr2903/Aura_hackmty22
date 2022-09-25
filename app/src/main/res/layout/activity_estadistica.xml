@@ -71,14 +71,6 @@
         android:layout_marginTop="@dimen/margin_t_text" />
     />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/continuar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/arrow_right"
-        android:layout_marginTop="@dimen/margin_top_text"
-        android:enabled="false"
-        />
 
 </LinearLayout>
 </ScrollView>

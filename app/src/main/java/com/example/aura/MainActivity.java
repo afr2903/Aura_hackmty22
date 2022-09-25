@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         FloatingActionButton btn = (FloatingActionButton) findViewById(R.id.continuar);
         CheckBox box = (CheckBox) findViewById(R.id.box);
 
-        Intent i = new Intent(this, RedPsicologos.class);
+        Intent i = new Intent(this, Chatbot.class);
 
 
         box.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {

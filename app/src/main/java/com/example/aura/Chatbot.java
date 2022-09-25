@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.util.Pair;
@@ -21,6 +22,9 @@ public class Chatbot extends AppCompatActivity {
     Usuario us = new Usuario();
     Context context;
     int count;
+    Intent a;
+    Intent b;
+    Intent[] iList;
 
 
     @Override
@@ -34,7 +38,13 @@ public class Chatbot extends AppCompatActivity {
         us = new Usuario();
         count = 0;
 
+        a = new Intent(this, Estadistica.class);
+        b = new Intent(this, RedPsicologos.class);
+        iList = new Intent[]{a, b};
+
         preguntasIniciales();
+
+
 
     }
 
@@ -240,8 +250,43 @@ public class Chatbot extends AppCompatActivity {
         Nodo[] categoria = n.getChild(index).getChildren();
         int consejo = (int) (Math.random() * ((3) + 1));
         createText(categoria[consejo].getText());
+        crearMenu();
 
+    }
 
+    private void crearMenu(){
+        LinearLayout layout2 = new LinearLayout(this);
+        layout2.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
+        layout2.setOrientation(LinearLayout.VERTICAL);
+
+        Button[] buttons = new Button[3];
+
+        String[] str = new String[]{"Estadísticas", "Red de psicólogos"};
+
+        for (int i = 0; i < 2; i++) {
+            Button b = new Button(this);
+            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT);
+            params.setMargins(20, 20, 0, 0);
+            b.setLayoutParams(params);
+            b.setText(str[i]);
+            b.setAllCaps(false);
+            b.setBackgroundColor(getResources().getColor(R.color.accent_color));
+            params.gravity = Gravity.RIGHT;
+            b.setTextColor(getResources().getColor(R.color.white));;
+            b.setPadding(10, 10, 10, 10);
+            int finalI = i;
+            b.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    startActivity(iList[finalI]);
+                }
+            });
+            layout2.addView(b);
+
+        }
+
+        linearLayout.addView(layout2);
     }
 
 
