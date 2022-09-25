@@ -17,7 +17,7 @@
             android:layout_height="match_parent">
 
             <ImageView
-            android:id="@+id/imgImagen"
+            android:id="@+id/imgFoto"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:src="@drawable/psic1"
@@ -37,7 +37,6 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/white"
                     android:text="Marta Martínez"
-                    android:layout_below="@id/imgImagen"
                     android:textStyle="bold"
                     android:textSize="@dimen/card_titulo"/>
 
@@ -47,12 +46,14 @@
                     android:layout_marginTop="5dp"
                     >
                     <TextView
+                        android:id="@+id/tvEstrellas"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="4.7"
                         android:textColor="@color/white" />
 
                     <ImageView
+                        android:id="@+id/starIcon"
                         android:layout_width="20dp"
                         android:layout_height="20dp"
                         android:src="@drawable/star"
@@ -62,11 +63,14 @@
 
             </LinearLayout>
 
-            <ImageView
-                android:layout_width="30dp"
+            <ImageButton
+                android:id="@+id/eyeIcon"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
                 android:src="@drawable/eye"
-                android:layout_marginLeft="15dp"/>
+                android:background="@color/dark_primary_color"
+                android:layout_marginLeft="15dp"
+                android:scaleType="fitCenter"/>
 
         </LinearLayout>
 
