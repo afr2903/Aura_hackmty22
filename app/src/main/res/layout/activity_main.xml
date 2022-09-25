@@ -1,8 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".MainActivity" />
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    >
+
+    <TextView
+        android:id="@+id/priv_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/aviso_privacidad_titulo"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="32dp"
+        />
+
+    <TextView
+        android:id="@+id/aviso_priv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/priv_titulo"
+        android:layout_marginTop="30dp"
+        android:text="@string/aviso_privacidad"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+
+    <LinearLayout
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aviso_priv"
+        android:orientation="horizontal">
+
+
+        <CheckBox
+            android:id="@+id/box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""/>
+
+
+        <TextView
+            android:id="@+id/rec_priv"
+            android:layout_width="320dp"
+            android:layout_height="32dp"
+            android:text="@string/recordatorio_privacidad"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="202dp" />
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/continuar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@drawable/arrow_right"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/checkBox"
+        android:layout_alignParentRight="true"
+        android:enabled="false"
+        />
+
+
+</RelativeLayout>

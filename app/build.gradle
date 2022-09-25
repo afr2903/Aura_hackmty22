@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.aura"
-        minSdk 23
+        minSdk 22
         targetSdk 32
         versionCode 1
         versionName "1.0"
