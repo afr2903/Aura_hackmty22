@@ -53,11 +53,12 @@
         android:id="@+id/textProgreso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/porgreso"
+        android:text="@string/progreso"
         tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="37dp"
         android:textSize="@dimen/textSize"
-        android:layout_marginTop="@dimen/margin_t_text" />
+        android:layout_marginTop="@dimen/margin_t_text"
+        />
 
     />
 
@@ -68,5 +69,15 @@
         app:srcCompat="@drawable/gf1removebg"
         android:layout_marginTop="@dimen/margin_t_text" />
     />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/continuar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/arrow_right"
+        android:layout_marginTop="@dimen/margin_top_text"
+        android:enabled="false"
+        />
+
 </LinearLayout>
 </ScrollView>

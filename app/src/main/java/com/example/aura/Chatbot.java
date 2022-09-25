@@ -1,11 +1,13 @@
 package com.example.aura;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 
 import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 import android.util.Pair;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -108,6 +110,8 @@ public class Chatbot extends AppCompatActivity {
             params.setMargins(20, 20, 0, 0);
             input.setLayoutParams(params);
             input.setPadding(20, 20, 20, 20);
+            params.gravity = Gravity.RIGHT;
+
             layout2.addView(input);
 
             EditText input2 = new EditText(context);
@@ -115,6 +119,7 @@ public class Chatbot extends AppCompatActivity {
             input2.setLayoutParams(params);
             input2.setPadding(20, 20, 20, 20);
             layout2.addView(input2);
+            params.gravity = Gravity.RIGHT;
 
             linearLayout.addView(layout2);
         }
@@ -125,11 +130,12 @@ public class Chatbot extends AppCompatActivity {
         layout2.setOrientation(LinearLayout.HORIZONTAL);
 
         Button b = new Button(this);
-        params.setMargins(20, 20, 0, 0);
         b.setLayoutParams(params);
         b.setText("Continuar");
         b.setAllCaps(false);
         b.setBackgroundColor(getResources().getColor(R.color.accent_color));
+        b.setTextColor(getResources().getColor(R.color.white));
+        params.gravity = Gravity.RIGHT;
         b.setPadding(10, 10, 10, 10);
         layout2.addView(b);
         linearLayout.addView(layout2);
@@ -194,6 +200,8 @@ public class Chatbot extends AppCompatActivity {
                     b.setText("Continuar");
                     b.setAllCaps(false);
                     b.setBackgroundColor(getResources().getColor(R.color.accent_color));
+                    b.setTextColor(getResources().getColor(R.color.white));
+                    params.gravity = Gravity.RIGHT;
                     b.setPadding(10, 10, 10, 10);
                     layout2.addView(b);
                     linearLayout.addView(layout2);
@@ -241,9 +249,10 @@ public class Chatbot extends AppCompatActivity {
         TextView textView = new TextView(this);
         LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
-        params.setMargins(20, 20, 0, 0);
+        params.setMargins(20, 20, 0, 10);
         textView.setLayoutParams(params);
         textView.setText(text);
+        textView.setTextColor(getResources().getColor(R.color.white));
         textView.setBackgroundColor(getResources().getColor(R.color.dark_primary_color));
         textView.setPadding(20, 20, 20, 20);
         linearLayout.addView(textView);
@@ -265,6 +274,8 @@ public class Chatbot extends AppCompatActivity {
             b.setText(options[i]);
             b.setAllCaps(false);
             b.setBackgroundColor(getResources().getColor(R.color.accent_color));
+            params.gravity = Gravity.RIGHT;
+            b.setTextColor(getResources().getColor(R.color.white));;
             b.setPadding(10, 10, 10, 10);
             layout2.addView(b);
             buttons[i] = b;
@@ -284,17 +295,22 @@ public class Chatbot extends AppCompatActivity {
         EditText name = new EditText(this);
         LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
-        params.setMargins(20, 20, 0, 0);
+        params.setMargins(10, 10, 0, 0);
         name.setLayoutParams(params);
         name.setPadding(20, 20, 20, 20);
+        params.gravity = Gravity.RIGHT;
         layout2.addView(name);
 
         Button b = new Button(this);
+        params.setMargins(20, 20, 0, 0);
         b.setLayoutParams(params);
         b.setText("Continuar");
         b.setAllCaps(false);
         b.setBackgroundColor(getResources().getColor(R.color.accent_color));
         b.setPadding(10, 10, 10, 10);
+        b.setTextColor(getResources().getColor(R.color.white));
+        params.gravity = Gravity.RIGHT;
+
         layout2.addView(b);
 
         linearLayout.addView(layout2);
