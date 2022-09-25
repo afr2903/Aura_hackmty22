@@ -6,6 +6,8 @@
     <string name="checkbox_privacidad">Acepto los términos y condiciones</string>
     <string name="emoDia">Esta gráfica muestra las emociones que sentiste el día de hoy</string>
     <string name="emoSemana">A continuación podrás ver las emociones que predominaron durante este semana</string>
+    <string name="porgreso">Tu progreso semanal se muestra de la siguiente forma:</string>
+    <string name="Red">Red de psicólogos</string>
     <string name="progreso">Tu progreso semanal se muestra de la siguiente forma:</string>
     <string name="nameJose">José Garza</string>
     <string name="puntuacion1">José Garza</string>

@@ -5,5 +5,7 @@
     <dimen name="title_size">18dp</dimen>
     <dimen name="textSize">17dp</dimen>
     <dimen name="margin_t_text">15dp</dimen>
+    <dimen name="textGrande">25dp</dimen>
+
 
 </resources>
