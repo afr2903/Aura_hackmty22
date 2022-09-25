@@ -8,7 +8,9 @@
     android:orientation="vertical"
     android:paddingLeft="@dimen/padding_layout"
     android:paddingRight="@dimen/padding_layout"
-    android:paddingTop="@dimen/padding_layout">
+    android:paddingTop="@dimen/padding_layout"
+    android:layout_centerHorizontal="true"
+    >
 
     <TextView
         android:id="@+id/textView"
@@ -49,7 +51,7 @@
         android:layout_marginTop="@dimen/margin_t_text"
         android:background="@color/cardview_dark_background"
         android:layoutDirection="locale"
-        android:text="                     Terapias Diversas"
+        android:text="Terapias Diversas"
         android:textColor="@color/cardview_light_background"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -58,6 +60,6 @@
         android:id="@+id/rvPsic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true" />
+        />
 
 </LinearLayout>

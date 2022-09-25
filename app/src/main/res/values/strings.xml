@@ -11,11 +11,19 @@
     <string name="progreso">Tu progreso semanal se muestra de la siguiente forma:</string>
 
     <string-array name="nombres">
-        <item>Paulina López    ★★★★</item>
-        <item>José Garza    ★★★★★</item>
-        <item>Manuel Rodríguez ★★★</item>
-        <item>Mariana Diaz ★★★★★</item>
-        <item>Laura García ★★★★</item>
+        <item>Paulina López</item>
+        <item>José Garza</item>
+        <item>Manuel Rodríguez</item>
+        <item>Mariana Diaz</item>
+        <item>Laura García</item>
+    </string-array>
+
+    <string-array name="numEstrellas">
+        <item>4.5</item>
+        <item>3.7</item>
+        <item>3.5</item>
+        <item>4.5</item>
+        <item>4.9</item>
     </string-array>
 
     <string-array name="info">

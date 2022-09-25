@@ -11,7 +11,7 @@
     tools:context=".PerfilPsicologo">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tvNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -26,7 +26,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/imgFoto"
         android:layout_width="157dp"
         android:layout_height="133dp"
         android:layout_gravity="center"
@@ -36,7 +36,21 @@
         tools:layout_editor_absoluteY="45dp" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/tvEstrellas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_t_text"
+        android:text="@string/namePaulina"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvInfo"
         android:layout_width="334dp"
         android:layout_height="345dp"
         android:layout_gravity="center"

@@ -30,8 +30,6 @@ public class ContactoAdaptador extends RecyclerView.Adapter<ContactoAdaptador.Co
         this.activity = activity;
     }
 
-
-
     @NonNull
     @Override
     public ConctactoViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -53,6 +51,7 @@ public class ContactoAdaptador extends RecyclerView.Adapter<ContactoAdaptador.Co
                 intent.putExtra("nombre", psicologo.getNombre());
                 intent.putExtra("estrellas", psicologo.getNumEstrellas());
                 intent.putExtra("imagen", psicologo.getImagen());
+                intent.putExtra("info", psicologo.getInfo());
                 activity.startActivity(intent);
             }
         });

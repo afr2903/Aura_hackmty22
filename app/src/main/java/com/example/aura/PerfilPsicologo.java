@@ -5,31 +5,44 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
 public class PerfilPsicologo extends AppCompatActivity {
 
-    RecyclerView listaPsics;
-    ArrayList<Psicologo> psicologos;
+    TextView tvNombre;
+    TextView tvEstrellas;
+    ImageView imgFoto;
+    TextView tvInfo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_perfil_psicologo);
 
-        listaPsics = (RecyclerView) findViewById(R.id.rvPsic);
+        Bundle extras = getIntent().getExtras();
+        String nombre = extras.getString("nombre");
+        String estrellas = extras.getString("estrellas");
+        int imagen = extras.getInt("imagen");
+        String info = extras.getString("info");
 
-        LinearLayoutManager llm = new LinearLayoutManager(this);
-        inicializarAdaptador();
-        llm.setOrientation(LinearLayoutManager.VERTICAL);
+        tvNombre = (TextView) findViewById(R.id.tvNombre);
+        tvEstrellas = (TextView) findViewById(R.id.tvEstrellas);
+        imgFoto = (ImageView) findViewById(R.id.imgFoto);
+        tvInfo = (TextView) findViewById(R.id.tvInfo);
 
-        listaPsics.setLayoutManager(llm);
+        tvNombre.setText(nombre);
+        tvEstrellas.setText("Calificación: " + estrellas);
+        tvInfo.setText(info);
+        imgFoto.setImageResource(imagen);
+
+
     }
 
     public void inicializarAdaptador(){
-        ContactoAdaptador adaptador = new ContactoAdaptador(psicologos, this);
-        listaPsics.setAdapter(adaptador);
+
     }
 
 
