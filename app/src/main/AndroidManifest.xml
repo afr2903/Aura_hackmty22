@@ -14,6 +14,20 @@
         android:theme="@style/Theme.Aura"
         tools:targetApi="31">
         <activity
+            android:name=".PerfilPsicologo"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".RedPsicologos"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Estadistica"
             android:exported="false">
             <meta-data

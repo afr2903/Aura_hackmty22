@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding_layout"
+    android:paddingRight="@dimen/padding_layout"
+    android:paddingTop="@dimen/padding_layout"
+    tools:context=".PerfilPsicologo">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paulina López"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginTop="@dimen/margin_t_text"
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="334dp"
+        android:layout_height="37dp"
+        android:text="Especialista en psicología cognitivo-conductual con doctorado de la UNAM"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="179dp"
+        android:layout_marginTop="@dimen/margin_t_text"
+        />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="157dp"
+        android:layout_height="133dp"
+        app:srcCompat="@drawable/psic1"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="45dp"
+        android:layout_marginTop="@dimen/margin_t_text"
+        />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$2,000 por consulta"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="231dp"
+        android:layout_marginTop="@dimen/margin_t_text"
+        />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medio de contacto:"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="268dp"
+        android:layout_marginTop="@dimen/margin_t_text"
+        />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo: paulina.l@hotmail.com"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="307dp"
+        android:layout_marginTop="@dimen/margin_t_text"
+        />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WhatsApp: 4443764887"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="328dp"
+        android:layout_marginTop="@dimen/margin_t_text"
+        />
+</LinearLayout>

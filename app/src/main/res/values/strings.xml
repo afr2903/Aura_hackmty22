@@ -7,4 +7,5 @@
     <string name="emoDia">Esta gráfica muestra las emociones que sentiste el día de hoy</string>
     <string name="emoSemana">A continuación podrás ver las emociones que predominaron durante este semana</string>
     <string name="porgreso">Tu progreso semanal se muestra de la siguiente forma:</string>
+    <string name="Red">Red de psicólogos</string>
 </resources>
