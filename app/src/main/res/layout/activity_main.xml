@@ -4,31 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center"
     android:background="#FFFFFF"
     android:orientation="vertical"
-    tools:context=".MainActivity"
     android:paddingLeft="@dimen/padding_layout"
     android:paddingRight="@dimen/padding_layout"
-    >
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/priv_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
         android:layout_marginTop="@dimen/margin_top_text"
+        android:inputType="text"
         android:text="@string/aviso_privacidad_titulo"
+        android:textColor="#2196F3"
+        android:textSize="@dimen/title_size"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="32dp"
-        android:textSize="@dimen/title_size"/>
+        tools:layout_editor_absoluteY="32dp" />
 
     <TextView
         android:id="@+id/aviso_priv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/priv_titulo"
+        android:layout_alignStart="@id/checkBox"
+        android:layout_alignRight="@id/checkBox"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="false"
         android:layout_marginTop="@dimen/margin_top_text"
         android:text="@string/aviso_privacidad"
+        android:textColor="#000000"
         tools:layout_editor_absoluteX="48dp"
         tools:layout_editor_absoluteY="95dp" />
 
@@ -46,14 +60,16 @@
             android:id="@+id/box"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""/>
+            android:text="" />
 
 
         <TextView
             android:id="@+id/rec_priv"
             android:layout_width="320dp"
             android:layout_height="32dp"
+            android:layout_gravity="center"
             android:text="@string/recordatorio_privacidad"
+            android:textColor="#000000"
             tools:layout_editor_absoluteX="48dp"
             tools:layout_editor_absoluteY="202dp" />
     </LinearLayout>
@@ -62,13 +78,12 @@
         android:id="@+id/continuar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:clickable="true"
-        app:srcCompat="@drawable/arrow_right"
-        android:layout_marginTop="@dimen/margin_top_text"
         android:layout_below="@+id/checkBox"
         android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/margin_top_text"
+        android:clickable="true"
         android:enabled="false"
-        />
+        app:srcCompat="@drawable/arrow_right" />
 
 
 </RelativeLayout>

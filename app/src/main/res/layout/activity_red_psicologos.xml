@@ -14,49 +14,45 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Red"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="15dp"
+        android:layout_gravity="center"
         android:layout_marginTop="@dimen/margin_t_text"
-        />
+        android:text="@string/Red"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="15dp" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="99dp"
-        android:layout_height="92dp"
-        app:srcCompat="@drawable/buscador"
+        android:layout_width="179dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
         android:layout_marginTop="@dimen/margin_t_text"
-        />
+        app:srcCompat="@drawable/search_bar_with_magnifying_glass_graphic_design_template_free_vector" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="En base a tu progreso en la app te recomendamos:"
-        android:textSize="16sp"
         android:layout_marginTop="@dimen/margin_t_text"
-        />
+        android:text="Con base a tu progreso en la app te recomendamos:"
+        android:textColor="#000000"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Terapia Cognitivo-Conductual"
-        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_t_text"
         android:background="@color/cardview_dark_background"
+        android:layoutDirection="locale"
+        android:text="           Terapia Cognitivo-Conductual"
         android:textColor="@color/cardview_light_background"
-        android:layout_marginTop="@dimen/margin_t_text"
-        />
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Te recomendamos a los siguientes profesionales"
-        android:textSize="16sp"
-        android:layout_marginTop="@dimen/margin_t_text"
-
-        />
     />
 </LinearLayout>
