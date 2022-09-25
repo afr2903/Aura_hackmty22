@@ -6,6 +6,8 @@
     <dimen name="textSize">17dp</dimen>
     <dimen name="margin_t_text">15dp</dimen>
     <dimen name="textGrande">25dp</dimen>
-
+    <dimen name="card_width">300dp</dimen>
+    <dimen name="card_height">80dp</dimen>
+    <dimen name="card_titulo">16dp</dimen>
 
 </resources>
