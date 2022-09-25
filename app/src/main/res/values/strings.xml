@@ -4,4 +4,7 @@
     <string name="aviso_privacidad">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
     <string name="recordatorio_privacidad">Recuerda que no usaremos tus datos para otros fines fuera de la aplicación.</string>
     <string name="checkbox_privacidad">Acepto los términos y condiciones</string>
+    <string name="emoDia">Esta gráfica muestra las emociones que sentiste el día de hoy</string>
+    <string name="emoSemana">A continuación podrás ver las emociones que predominaron durante este semana</string>
+    <string name="porgreso">A continuación podrás ver las emociones que predominaron durante este semana</string>
 </resources>
