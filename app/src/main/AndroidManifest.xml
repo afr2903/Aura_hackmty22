@@ -14,6 +14,9 @@
         android:theme="@style/Theme.Aura"
         tools:targetApi="31">
         <activity
+            android:name=".Chatbot"
+            android:exported="false" />
+        <activity
             android:name=".psico1"
             android:exported="false">
             <meta-data

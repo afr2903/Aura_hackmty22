@@ -11,6 +11,8 @@ import android.widget.RadioGroup;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
+import org.w3c.dom.Text;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -21,6 +23,9 @@ public class MainActivity extends AppCompatActivity {
         FloatingActionButton btn = (FloatingActionButton) findViewById(R.id.continuar);
         CheckBox box = (CheckBox) findViewById(R.id.box);
 
+        Intent i = new Intent(this, Chatbot.class);
+
+
         box.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
            @Override
            public void onCheckedChanged(CompoundButton buttonView,boolean isChecked) {
@@ -30,8 +35,14 @@ public class MainActivity extends AppCompatActivity {
                    btn.setEnabled(false);
                }
            }
-        }
-        );
+        });
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(i);
+            }
+        });
 
         Intent i = new Intent(this, Estadistica.class);
 
