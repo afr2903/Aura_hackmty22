@@ -44,6 +44,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Intent i = new Intent(this, Estadistica.class);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(i);
+
+            }
+        });
 
     }
 
