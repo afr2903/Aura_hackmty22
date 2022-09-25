@@ -26,6 +26,7 @@
         tools:layout_editor_absoluteX="48dp"
         tools:layout_editor_absoluteY="32dp" />
 
+
     <TextView
         android:id="@+id/aviso_priv"
         android:layout_width="wrap_content"
@@ -40,12 +41,13 @@
         android:layout_alignParentRight="false"
         android:layout_alignParentBottom="false"
         android:layout_centerHorizontal="false"
-        android:layout_marginTop="@dimen/margin_top_text"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="-1dp"
         android:text="@string/aviso_privacidad"
         android:textColor="#000000"
         tools:layout_editor_absoluteX="48dp"
         tools:layout_editor_absoluteY="95dp" />
-
 
     <LinearLayout
         android:id="@+id/checkBox"
@@ -83,6 +85,7 @@
         android:layout_marginTop="@dimen/margin_top_text"
         android:clickable="true"
         android:enabled="false"
+        app:backgroundTint="#03A8F3"
         app:srcCompat="@drawable/arrow_right" />
 
 

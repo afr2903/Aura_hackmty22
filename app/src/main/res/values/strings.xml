@@ -1,12 +1,11 @@
 <resources>
     <string name="app_name">Aura</string>
     <string name="aviso_privacidad_titulo">Aviso de privacidad</string>
-    <string name="aviso_privacidad">En Aura, la información y datos personales de los beneficiarios, colaboradores, donantes, asociados, empleados y proveedores, es tratada de forma estrictamente confidencial y con la secrecía necesaria para lograr los fines de la organización, por lo que hacemos un esfuerzo permanente para salvaguardarla, de conformidad con los artículos 8, 15, 16 y 36 de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.</string>
+    <string name="aviso_privacidad">En Aura, la información y datos personales de los usuarios, colaboradores es tratada de forma estrictamente confidencial y con la secrecía necesaria para lograr los fines de la organización.</string>
     <string name="recordatorio_privacidad">Recuerda que no usaremos tus datos para otros fines fuera de la aplicación.</string>
     <string name="checkbox_privacidad">Acepto los términos y condiciones</string>
     <string name="emoDia">Esta gráfica muestra las emociones que sentiste el día de hoy:</string>
     <string name="emoSemana">A continuación podrás ver las emociones que predominaron durante este semana:</string>
-    <string name="porgreso">Tu progreso semanal se muestra de la siguiente forma:</string>
     <string name="Red">Red de psicólogos</string>
     <string name="progreso">Tu progreso semanal se muestra de la siguiente forma:</string>
 
