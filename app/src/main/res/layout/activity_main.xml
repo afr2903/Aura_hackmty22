@@ -7,27 +7,27 @@
     android:background="#FFFFFF"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:paddingLeft="20dp"
-    android:paddingRight="20dp"
+    android:paddingLeft="@dimen/padding_layout"
+    android:paddingRight="@dimen/padding_layout"
     >
 
     <TextView
         android:id="@+id/priv_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="@dimen/margin_top_text"
         android:text="@string/aviso_privacidad_titulo"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="48dp"
         tools:layout_editor_absoluteY="32dp"
-        />
+        android:textSize="18dp"/>
 
     <TextView
         android:id="@+id/aviso_priv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/priv_titulo"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="@dimen/margin_top_text"
         android:text="@string/aviso_privacidad"
         tools:layout_editor_absoluteX="48dp"
         tools:layout_editor_absoluteY="95dp" />
@@ -38,6 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/aviso_priv"
+        android:layout_marginTop="@dimen/margin_top_text"
         android:orientation="horizontal">
 
 
@@ -63,7 +64,7 @@
         android:layout_height="wrap_content"
         android:clickable="true"
         app:srcCompat="@drawable/arrow_right"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="@dimen/margin_top_text"
         android:layout_below="@+id/checkBox"
         android:layout_alignParentRight="true"
         android:enabled="false"
