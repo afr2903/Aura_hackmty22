@@ -9,6 +9,23 @@
     <string name="porgreso">Tu progreso semanal se muestra de la siguiente forma:</string>
     <string name="Red">Red de psicólogos</string>
     <string name="progreso">Tu progreso semanal se muestra de la siguiente forma:</string>
-    <string name="nameJose">José Garza</string>
-    <string name="puntuacion1">José Garza</string>
+
+    <string-array name="nombres">
+        <item>Paulina López    ★★★★</item>
+        <item>José Garza    ★★★★★</item>
+        <item>Manuel Rodríguez ★★★</item>
+        <item>Mariana Diaz ★★★★★</item>
+        <item>Laura García ★★★★</item>
+    </string-array>
+
+    <string-array name="info">
+        <item>Especialista en psicología cognitivo conductu- al con doctorado de la UNAM.\n\n<b>Costo de sesión:</b> $800\n\n<b>Correo electrónico:</b> paulina@aura.mx\n\n<b>Número telefónico:</b> 444 5343 407\n\n<b>                    Reseñas más recientes:</b>\n\n<b>María Z.</b> Gran profesional y excelente persona. Gracias por ser paciente al escucharme y hacerme sentir cómoda en todo momento.\n\n<b>Juan A.</b> Confianza sobre todo y muy buen trato, excelente trato no, bonito y cómodo lugar y detallista con el trabajo que hace.</item>
+        <item>Especialista en psicología clínica con maestría de la UDEM.\n\n<b>Costo de sesión:</b> $1000\n\n<b>Correo electrónico:</b> jose@aura.mx\n\n<b>Número telefónico:</b> 444 1333 437\n\n<b>                    Reseñas más recientes:</b>\n\n<b>Carlos V.</b> Me gusta la manera en que aborda las problemáticas y las dinámicas que utiliza. En ningún momento me he sentido invadido o intimidado.\n\n<b>Alberto A.</b> Me gusto que me escuchara, me hizo sentirme comprendida y relajada, además de que indagará con mi situación y sobre todo que me diera opciones de tratamiento.</item>
+        <item>Especialista en trastornos de ansiedad con maestría en el TEC.\n\n<b>Costo de sesión:</b> $850\n\n<b>Correo electrónico:</b> manuel@aura.mx\n\n<b>Número telefónico:</b> 444 523 422\n\n<b>                    Reseñas más recientes:</b>\n\n<b>Juan M.</b> Fue mi primera cita, estoy en una crisis en mi vida y el hizo una muy buena contención de mis emociones y salí esperanzada de que estaré mejor, seguiré con ella en terapia.\n\n<b>Francisca R.</b> Se me hizo un tanto apresurada, quizá por querer saber las circunstancias de la situación de mi hijo en una sola sesión... Fuera de esto, me pareció adecuado el primer acercamiento. El lugar un tanto justo en espacio.</item>
+        <item>Especialista en atención psicológica a víctimas de violencia con doctorado de la UASLP.\n\n<b>Costo de sesión:</b> $700\n\n<b>Correo electrónico:</b> mariana@aura.mx\n\n<b>Número telefónico:</b> 444 5373 477\n\n<b>                    Reseñas más recientes:</b>\n\n<b>María Z.</b> Para ser mi primera visita, me encanto, me dio mucha confianza, el trato es muy bueno, muchas gracias.\n\n<b>José A.</b> ¡Excelente atención!,comprensiva, siempre con la ayuda que uno necesita.</item>
+        <item>Especialista en araumas psicológicos con carrera en la BUAP.\n\n<b>Costo de sesión:</b> $900\n\n<b>Correo electrónico:</b> laura@aura.mx\n\n<b>Número telefónico:</b> 444 5993 400\n\n<b>                    Reseñas más recientes:</b>\n\n<b>Perla Z.</b> Excelente terapeuta, buena opinión, puntual y trato perfecto. Empática con sus pacientes. Me encantó.\n\n<b>Pedro A.</b> Excelente comunicación y me gusta su forma de decir las cosas, es muy tranquilo hablar con ella mil gracias.</item>
+    </string-array>
+
+    <string name="namePaulina">Paulina López    ★★★★</string>
+    <string name="infoPaulina">Especialista en psicología cognitivo conductu- al con doctorado de la UNAM.\n\n<b>Costo de sesión:</b> $800\n\n<b>Correo electrónico:</b> paulina@aura.mx\n\n<b>Número telefónico:</b> 444 5343 407\n\n<b>                    Reseñas más recientes:</b>\n\n<b>María Z.</b> Gran profesional y excelente persona. Gracias por ser paciente al escucharme y hacerme sentir cómoda en todo momento.\n\n<b>Juan A.</b> Confianza sobre todo y muy buen trato, excelente trato no, bonito y cómodo lugar y detallista con el trabajo que hace</string>
 </resources>

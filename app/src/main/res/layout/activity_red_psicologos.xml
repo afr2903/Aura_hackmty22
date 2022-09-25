@@ -49,7 +49,7 @@
         android:layout_marginTop="@dimen/margin_t_text"
         android:background="@color/cardview_dark_background"
         android:layoutDirection="locale"
-        android:text="           Terapia Cognitivo-Conductual"
+        android:text="                     Terapias Diversas"
         android:textColor="@color/cardview_light_background"
         android:textSize="20sp"
         android:textStyle="bold" />
