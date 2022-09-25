@@ -22,7 +22,13 @@
         </activity>
         <activity
             android:name=".RedPsicologos"
-            android:exported="false">
+            android:exported="false"
+        </activity>
+        <activity>
+            android:name=".Chatbot"
+            android:exported="false" />
+        <activity
+            android:name=".psico1"
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
