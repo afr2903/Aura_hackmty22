@@ -20,7 +20,7 @@
         android:textStyle="bold"
         tools:layout_editor_absoluteX="48dp"
         tools:layout_editor_absoluteY="32dp"
-        android:textSize="18dp"/>
+        android:textSize="@dimen/title_size"/>
 
     <TextView
         android:id="@+id/aviso_priv"

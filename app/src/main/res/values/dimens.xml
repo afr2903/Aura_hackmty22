@@ -2,5 +2,5 @@
 <resources>
     <dimen name="margin_top_text">30dp</dimen>
     <dimen name="padding_layout">20dp</dimen>
-    <dimen name=""></dimen>
+    <dimen name="title_size">18dp</dimen>
 </resources>
