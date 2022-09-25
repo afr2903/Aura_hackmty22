@@ -17,7 +17,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="@dimen/margin_t_text"
         android:text="@string/Red"
-        android:textColor="#000000"
+        android:textColor="#03A8F3"
         android:textIsSelectable="false"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -50,7 +50,9 @@
         android:background="@color/cardview_dark_background"
         android:layoutDirection="locale"
         android:text="                     Terapias Diversas"
+        android:textAllCaps="false"
         android:textColor="@color/cardview_light_background"
+        android:textColorHint="#873939"
         android:textSize="20sp"
         android:textStyle="bold" />
 
